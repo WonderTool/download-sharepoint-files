@@ -1,0 +1,3 @@
+Read SKILL.md before working on authenticated SharePoint downloads.
+
+Use scripts/authenticated_sharepoint_download.cjs as the automation template. Keep Microsoft credentials, MFA codes, cookies, and tokens out of prompts and logs.
