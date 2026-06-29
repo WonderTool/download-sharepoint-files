@@ -1,0 +1,4 @@
+interface:
+  display_name: "Download SharePoint Files"
+  short_description: "Batch-download authenticated SharePoint links"
+  default_prompt: "Use $download-sharepoint-files to download these SharePoint links into the current folder."
