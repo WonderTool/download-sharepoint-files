@@ -59,6 +59,43 @@ The script expects Node.js and Playwright. In Codex Desktop, use the bundled Nod
 
 腳本需要 Node.js 與 Playwright。若在 Codex Desktop 裡使用，可優先使用內建的 Node runtime 與套件路徑；若在其他環境使用，請在本機專案安裝 Playwright，或調整 `CODEX_NODE_MODULES`。
 
+## Discoverability / Keywords
+
+Useful search phrases for people who run into locked SharePoint or Office Online downloads:
+
+- download SharePoint files with Microsoft login
+- authenticated SharePoint download automation
+- OneDrive shared link downloader
+- Office Online file download script
+- SharePoint 403 download workaround
+- Codex skill for file downloads
+- Playwright authenticated download workflow
+- Microsoft 365 shared file automation
+
+Hashtags for sharing: `#SharePoint` `#OneDrive` `#Microsoft365` `#OfficeOnline` `#CodexSkill` `#OpenAICodex` `#Playwright` `#Automation` `#DeveloperTools` `#AIWorkflow`
+
+## 搜尋關鍵字 / Hashtags
+
+適合遇到 SharePoint 權限、OneDrive 分享連結、Office Online 預覽頁、Microsoft 登入下載問題的人搜尋：
+
+- SharePoint 下載 403 解法
+- OneDrive 分享連結下載工具
+- Microsoft 365 檔案下載自動化
+- Office Online 檔案下載腳本
+- Codex skill 下載 SharePoint 檔案
+- Playwright 登入後下載檔案
+- AI agent 檔案下載 workflow
+
+分享時可用：`#SharePoint下載` `#OneDrive下載` `#Microsoft365` `#OfficeOnline` `#CodexSkill` `#OpenAICodex` `#Playwright自動化` `#AI工具` `#開發者工具` `#自動化流程`
+
+## Share Copy
+
+Need to download SharePoint, OneDrive, or Office Online shared files that fail with `403` or redirect to Microsoft login? This Codex skill uses a temporary authenticated browser session and Playwright to save shared files with clean local filenames.
+
+## 分享文案
+
+如果你遇到 SharePoint / OneDrive / Office Online 分享檔案無法直接下載、`curl` 回傳 `403`、或一直被導到 Microsoft 登入頁，這個 Codex skill 可以用臨時登入瀏覽器 session 搭配 Playwright，把檔案穩定下載到本機。
+
 ## Contents
 
 - `SKILL.md`: The agent workflow and safety rules.
